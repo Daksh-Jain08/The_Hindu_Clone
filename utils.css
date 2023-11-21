@@ -1,0 +1,34 @@
+.container{
+    width: 80vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.list-style-none{
+    list-style: none;
+}
