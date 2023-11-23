@@ -14,41 +14,59 @@
 </head>
 <body>
     <header>
-    <nav class="container flex-col align-center desktop">
-        <div class="logo-box flex justify-center"><img class="logo" src="./Resources/thehindu-logo.svg" alt=""></div>
-        <div class="first-nav flex space-between">
-            <ul class="flex">
-                <li class="nav-item">India</li>
-                <li class="nav-item">World</li>
-                <li class="nav-item">Opinion</li>
-                <li class="nav-item">Sports</li>
-                <li class="nav-item">e-Paper</li>
-            </ul>
-            <div class="menu-btn flex align-center justify-center"><img src="./Resources/menu-hamber-icon.svg" alt=""></div>
-        </div>
-        <div class="second-nav flex space-between">
-            <div class="list-2 flex align-center">
-                <ul class="nav-list-2 flex list-style-none">
-                    <li class="nav-ordered">Elections</li>
-                    <li class="nav-ordered">/</li>
-                    <li class="nav-ordered">Health</li>
-                    <li class="nav-ordered">/</li>
-                    <li class="nav-ordered">Editorial</li>
-                    <li class="nav-ordered" id="search">SEARCH</li>
-                  </ul>
+    <nav>
+        <div class="container flex-col align-center desktop">
+            <div class="logo-box flex justify-center"><img class="logo" src="./Resources/thehindu-logo.svg" alt=""></div>
+            <div class="first-nav flex justify-center">
+                <ul class="flex">
+                    <li class="nav-item">India</li>
+                    <li class="nav-item">World</li>
+                    <li class="nav-item">Opinion</li>
+                    <li class="nav-item">Sports</li>
+                    <li class="nav-item">e-Paper</li>
+                    <div class="menu-btn flex align-center justify-center"><img src="./Resources/menu-hamber-icon.svg" alt=""></div>
+                </ul>
             </div>
-            <div class="button-list-container flex">
-                <ul class="btn-list flex space-between list-style-none align-center">
+            <div class="second-nav flex space-between">
+                <div class="list-2 flex align-center">
+                    <ul class="nav-list-2 flex list-style-none">
+                        <li class="nav-ordered">Elections</li>
+                        <li class="nav-ordered">/</li>
+                        <li class="nav-ordered">Health</li>
+                        <li class="nav-ordered">/</li>
+                        <li class="nav-ordered">Editorial</li>
+                        <li class="nav-ordered" id="search">SEARCH</li>
+                    </ul>
+                </div>
+                <div class="button-list-container flex">
+                    <ul class="btn-list flex space-between list-style-none align-center">
+                        <li class="trial">FREE TRIAL</li>
+                        <button class="nav-btn" id="subscribe">SUBSCRIBE</button>
+                        <button class="nav-btn" id="login">LOGIN</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="flex-col mobile">
+            <div class="flex space-between">
+                <a href="#" class="open-in-app">Open in The Hindu App</a>
+                <ul class="flex align-center mobile-ul list-style-none">
                     <li class="trial">FREE TRIAL</li>
-                    <button class="nav-btn" id="subscribe">SUBSCRIBE</button>
                     <button class="nav-btn" id="login">LOGIN</button>
+                </ul>
+            </div>
+            <div class="mobile-second-nav flex space-between">
+                <div class="logo-box flex justify-center"><img class="logo" src="./Resources/thehindu-logo.svg" alt=""></div>
+                <ul class="flex">
+                    <button class="nav-btn" id="subscribe">SUBSCRIBE</button>
+                    <div class="menu-btn flex align-center justify-center"><img src="./Resources/menu-hamber-icon.svg" alt=""></div>
                 </ul>
             </div>
         </div>
     </nav>
     </header>
 
-    <section class="section-1 grid container">
+    <section class="section-1 grid container-2">
         <div class="first flex-col">
             <a class="heading" id="premium">Premium</a>
             <div class="first-item flex-col">
@@ -88,6 +106,19 @@
                 <a href="#" class="second-content">The I&B Ministry told news channels to ensure that rescue operations are in no way disrupted or disturbed by the presence of cameramen, reporters, or equipment</a>
                 <img class="second-img" src="./Resources/28_Uttarakhand_Uttarkashi_Tunnel_Collapse_ground_zero_spotlight_21_11_delhi.jpeg" alt="image">
             </div>
+            <div class="flex second-2-container">
+                <div class="flex-col sub-second-left">
+                    <h2>India’s economy expected to grow 7% in Q2, beating RBI’s estimate</h2>
+                    <img src="./Resources/sub-second-left-img.jpeg" alt="" class="sub-second-left-img">
+                </div>
+                <div class="flex-col sub-second-right">
+                    <div class="second-item flex-col">
+                        <a class="content" href="#">What the OECD report says of climate finance ahead of COP 28 | Explained</a>
+                        <a href="#" class="author">RISHIKA PARDIKAR</a>
+                    </div>
+                    <a class="content" href="#">‘Brahmins only’ crematorium in Odisha | Activists, political leaders demand the casteist practice be put to rest</a>
+                </div>
+            </div>
         </div>
         <div class="third flex-col">
             <a href="#" class="heading" id="latest-news">Latest News</a>
@@ -107,6 +138,28 @@
                 <a href="#" class="third-heading">SPONSERED</a>
                 <a class="content" href="#">Dr Vetrikumar from Parvathy Hospital Performed a Miraculous Surgery and Successfully treated a Complex Bilateral Osteoarthritis case</a>
         </div>
+    </section>
+
+    <section class="section-2 flex container-2">
+        <div class="flex-col first align-center justify-center">
+            <div class="date-time">Wednesday, November 22</div>
+            <a href="#" class="editorial-logo"><img src="./Resources/editorial-logo-New.webp" alt=""></a>
+            <div class="read-in">
+                <a href="#">
+                    <span class="text">READ OUR EDITORIALS IN</span>
+                </a>
+                <ul class="language-list flex list-style-none">
+                    <li class="language-item flex justify-center align-center"><img src="./Resources/tamil-lang-icon-v2.svg" alt=""></li>
+                    <li class="language-item flex justify-center align-center"><img src="./Resources/hindi-lang-icon-v3.svg" alt=""></li>
+                    <li class="language-item flex justify-center align-center"><img src="./Resources/malayalam-lang-icon-v2.svg" alt=""></li>
+                    <li class="language-item flex justify-center align-center"><img src="./Resources/telugu-logo.svg" alt=""></li>
+                    <li class="language-item flex justify-center align-center"><img src="./Resources/kannada-icon.svg" alt=""></li>
+                    <li class="language-item flex justify-center align-center"><img src="./Resources/bengali-icon.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex-col second"></div>
+        <div class="flex-col third"></div>
     </section>
 </body>
 </html>

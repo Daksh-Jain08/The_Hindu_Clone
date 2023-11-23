@@ -4,6 +4,12 @@
     padding-left: 10vw;
 }
 
+.container-2{
+    width: 80vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
 .flex{
     display: flex;
 }
